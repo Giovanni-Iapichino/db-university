@@ -2,7 +2,7 @@
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `students`
 WHERE
 YEAR(`date_of_birth`) = "1990";
@@ -13,7 +13,7 @@ YEAR(`date_of_birth`) = "1990";
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `courses`
 WHERE
 `cfu` > 10;
@@ -24,7 +24,7 @@ WHERE
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `students`
 WHERE
 YEAR(`date_of_birth`) < "1995";
@@ -35,7 +35,7 @@ YEAR(`date_of_birth`) < "1995";
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `courses`
 WHERE
 `period` = "I semestre" AND
@@ -48,7 +48,7 @@ WHERE
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `exams`
 WHERE
 `hour` > "14:00:00" AND
@@ -60,7 +60,7 @@ WHERE
 
 ```sql
 
-SELECT COUNT(*)
+SELECT *
 FROM `degrees`
 WHERE `level`
 LIKE "%magistrale";
