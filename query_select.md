@@ -63,7 +63,7 @@ WHERE
 SELECT *
 FROM `degrees`
 WHERE `level`
-LIKE "%magistrale";
+LIKE "magistrale";
 
 ```
 
